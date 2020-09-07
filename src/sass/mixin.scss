@@ -1,0 +1,26 @@
+@mixin clearfix {
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+@mixin flex-lr-center {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+@mixin flex-center-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@mixin flex-r-center {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}

@@ -1,0 +1,17 @@
+@mixin truncate {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+
+    -o-overflow: hidden;
+    -o-text-overflow: ellipsis;
+    -o-white-space: nowrap;
+
+    -moz-overflow: hidden;
+    -moz-text-overflow: ellipsis;
+    -moz-white-space: nowrap;
+
+    -ms-overflow: hidden;
+    -ms-text-overflow: ellipsis;
+    -ms-white-space: nowrap;
+}
